@@ -38,6 +38,7 @@ pause.addEventListener("click", () => {
 })
 
 const numbersLiked = {}
+// non-operational heart
 heart.addEventListener("click", () =>{
     let numInHash = numbersLiked[counter.innerText]
     if (numInHash){
